@@ -2,6 +2,6 @@ trial*
 node_modules*
 yarn.lock
 **/__snapshots__
-*bundle.*
+*bundle.js*
 *main.css*
 */playground/*
