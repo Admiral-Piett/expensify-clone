@@ -6,7 +6,6 @@ import selectExpenses from '../selectors/expenses';
 
 export const ExpenseList = (props) => (
     <div>
-    <p>{ props.expenses.length } Total Expenses</p>
         {
             props.expenses.length === 0 ? (
                 <p>No Expenses</p>
