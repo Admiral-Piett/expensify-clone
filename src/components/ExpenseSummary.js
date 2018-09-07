@@ -9,8 +9,8 @@ export const ExpenseSummary = (props) => {
 
     return (
         <div>
-            <p class="summary-total-expenses">Selected Expenses: {props.expenses.length}</p>
-            <p class="summary-total-amount">Total Amount: {numeral(expensesTotal(props.expenses) / 100).format('$0,0.00')}</p>
+            <p className="summary-total-expenses">Selected Expenses: {props.expenses.length}</p>
+            <p className="summary-total-amount">Total Amount: {numeral(expensesTotal(props.expenses) / 100).format('$0,0.00')}</p>
         </div>
     )
 };
