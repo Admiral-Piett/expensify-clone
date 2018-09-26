@@ -5,3 +5,4 @@ node_modules*
 *main.css*
 */playground/*
 notes.txt
+src/firebase/*
